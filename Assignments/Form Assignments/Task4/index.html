@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="2">
+        <form>
+            <tr>
+                <th colspan="4">Registration From <br><br></th>
+            </tr>
+            <tr>
+                <td style="width: 250px;">
+                
+                  <label for="name"><b>Student Name</b></label>   
+                </td>
+                <td style="width: 250px;">
+                    <input type="text" id="name" placeholder="First Name">
+                </td>
+                <td style="width: 250px;">
+                    <input type="text" id="name" placeholder="Middle Name">
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <label for="father"><b>Father Name</b></label>
+                </td>
+                <td>
+                    <input type="text" id="father" placeholder="Enter you father`s Name">
+                </td>
+                <td >
+                    <label for="mother"><b>Mother Name:</b></label>
+                </td>
+                <td>
+                    <input type="text" id="mother" placeholder="Enter you Mother`s Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date"><b>Date of Birth</b></label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+                <td>
+                    <label for="Gender"><b>Gender</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" value="Male"><b>Male</b>
+                    <input type="radio" name="Gender" value="female"><b>Female</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="category"><b>Category</b></label>
+
+                </td>
+                <td>
+                    <input type="radio" name="category" id="category"><b>Gen</b>
+                    <input type="radio" name="category" id="category"><b>OBC</b>
+                    <input type="radio" name="category" id="category"><b>SC/ST</b>
+                </td>
+                <td>
+                    <label for="handicapped"><b>Handicapped</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="handicapped" id="handicapped"><b>Yes</b>
+                    <input type="radio" name="handicapped" id="handicapped"><b>No</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="ex-serviceman"><b>Ex-Serviceman</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="ex-serviceman" id="ex-serviceman"><b>Yes</b>
+                    <input type="radio" name="ex-serviceman" id="ex-serviceman"><b>No</b>
+                </td>
+                <td>
+                    <label for="ews"><b>EWS</b></label>
+                </td>
+                <td>
+                    <input type="radio" name="ews" id="ews"><b>Yes</b>
+                    <input type="radio" name="ews" id="ews"><b>No</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail"><b>Email ID</b></label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <label for="mob"><b>Mobile No.</b></label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state"><b>State</b></label>
+                </td>
+                <td>
+                    <select name="state" id="state">
+                        <optgroup label="State">
+                            <option value="Select any one">Select any One</option>
+                            <option value="mp">Madhya Pradesh</option>
+                        </optgroup>
+                    </select>
+                </td>
+                <td>
+                    <label for="city"><b>City</b></label>
+                </td>
+                <td>
+                    <select name="city" id="city">
+                        <optgroup label="City">
+                            <option value="Select any one">Select any One</option>
+                            <option value="Bhopal">Bhopal</option>
+                            <option value="Indore">Indore</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo"><b>Upload Photo</b></label>
+                </td>
+                <td>
+                    <input type="file" name="Browse..." value="Browse..." >
+                </td>
+                 <td>
+                    <label for="photo"><b>Upload Signature</b></label>
+                </td>
+                <td>
+                    <input type="file" name="Browse..." value="Browse..." >
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3">
+                    <center><button >Submit</button></center>
+                    
+                </td>
+            </tr>
+            
+            
+        </form>
+    </table>
+</body>
+</html>
