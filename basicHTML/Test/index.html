@@ -1,56 +1,141 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Task 4</title>
-</head>
-<body>
-    <h2><u>Task 4</u></h2>
-    <table border="1">
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-            <td>16</td>
-        </tr>
-        <tr>
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>21</td>
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>25</td>
-            <td>26</td>
-            <td>27</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>29</td>
-        </tr>
-    </table>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <label for="fullName">Full name :</label>
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="add your email"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password :</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Choose your Password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="confirmpassword">Confirm Password :</label>
+        <input
+          type="password"
+          name="confirmpassword"
+          id="confirmpassword"
+          placeholder="Confirm Password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone :</label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Mobile Number"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="dob">Date of Birth :</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+
+      <br />
+      <div>
+        <label for="tob">Time of Birth :</label>
+        <input type="time" name="tob" id="tob" />
+      </div>
+
+      <br />
+      <div>
+        <label for="timedate">time and Date of Birth :</label>
+        <input type="datetime-local" name="timedate" id="timedate" />
+      </div>
+      <br />
+      <div>
+        <label for="resume">Resume :</label>
+        <input type="file" name="resume" id="resume" />
+      </div>
+      <br />
+      <div>
+        <label for="volume">volume</label>
+        <input
+          type="range"
+          name="volume"
+          id="volume"
+          min="0"
+          max="10"
+          value="2"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="genderMale" value="male" />
+        <span>Male</span>
+        <input type="radio" name="gender" id="genderFemale" value="female" />
+        <span>Female</span>
+        <input type="radio" name="gender" id="genderOther" value="other" />
+        <span>Other</span>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="qualification">Qualification</label>
+        <select name="qualification" id="qualification">
+          <option value="">--Select--</option>
+          <option value="highschool">High School</option>
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+          <option value="phd">PhD</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="Skill">Skill</label>
+        <input type="checkbox" name="Skill" id="Skill1" value="HTML" />
+        <span>HTML</span>
+        <input type="checkbox" name="Skill" id="Skill2" value="CSS" />
+        <span>CSS</span>
+        <input type="checkbox" name="Skill" id="Skill3" value="JavaScript" />
+        <span>JavaScript</span>
+      </div>
+
+      <br />
+      <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" placeholder="Enter your address">
+        </textarea>
+      </div>
+
+
+      <br>
+      <button>Submit</button>
+    </div>
+  </body>
 </html>
