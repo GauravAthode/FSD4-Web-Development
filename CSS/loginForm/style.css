@@ -1,0 +1,81 @@
+#mainBox {
+  border: 1px solid #000;
+  width: 500px;
+  height: 300px;
+    padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+
+  box-shadow: 2px 2px 2px 0px rgb(107, 106, 106);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#formHeading {
+  color: rgb(41, 41, 110);
+  text-align: center;
+}
+
+
+.formFeild {
+  margin: 20px;
+  label {
+    color: rgb(14, 2, 36);
+    font-size: large;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 25px;
+    outline-color: blueviolet;
+  }
+}
+
+#loginForm {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+
+
+#formControl {
+  text-align: center;
+  button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+#cancelButton {
+  border: 1px solid #e03434;
+  background-color: #dc0404;
+  color: aliceblue;
+}
+
+#loginButton {
+  border: 1px solid #136122;
+  background-color: #3c7847;
+  color: aliceblue;
+}
+
+#cancelButton:hover {
+  color: #ee4848;
+  background-color: aliceblue;
+}
+
+#loginButton:hover {
+  color: #2e6a38;
+  background-color: aliceblue;
+}
+
+#cancelButton:active {
+  color: aliceblue;
+}
+
+#loginButton:active {
+  background-color: blue;
+  color: aliceblue;
+}
+body{
+    background: url(./imgloginback.jpg);
+}
