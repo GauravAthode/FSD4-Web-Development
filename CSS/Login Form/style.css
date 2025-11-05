@@ -1,0 +1,85 @@
+body {
+    background-image: url(background-img-loginform.png);
+    background-size: cover;
+}
+
+#mainBox {
+    border: 1px solid #000;
+    width: 450px;
+    height: 300px;
+    margin: 120px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 50px 10px purple;
+    background-color: rgba(138, 80, 126, 0.3);
+}
+
+#formHeading {
+    -webkit-text-stroke:0.5px #ff00ee;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+#loginForm {
+
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.formFeild {
+    margin: 20px;
+    label {
+
+        color: black;
+        font-size: large;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    outline-color: purple;
+  }
+}
+
+#formControl {
+    text-align: center;
+    button {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+  }
+}
+
+#cancelButton {
+    border: 1px solid #ff0000;
+    background-color: #f74c4c;
+    color: aliceblue;
+}
+
+#loginButton {
+    border: 1px solid #024f10;
+    background-color: #3c7847;
+    color: aliceblue;
+    }
+
+#cancelButton:hover {
+    color: #f74c4c;
+    background-color: aliceblue;
+}
+
+#loginButton:hover {
+    color: #3c7847;
+    background-color: aliceblue;
+}
+
+#cancelButton:active {
+    background-color: blue;
+    color: aliceblue;
+}
+
+#loginButton:active {
+    background-color: purple;
+    color: aliceblue;
+}
