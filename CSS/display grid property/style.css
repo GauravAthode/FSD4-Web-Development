@@ -1,0 +1,28 @@
+#superdiv{
+    border: 1px solid black;
+    width: 700PX;
+    height: 700PX;
+    background-color: aquamarine;
+
+}
+#maindiv{
+    
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    justify-content: center;
+    align-items: end;
+    justify-items: center;
+    width: fit-content;
+    border: 1px solid black;
+    gap: 50px;
+
+}
+.SUBDIV{
+    border: 1px solid black;
+    width: 40PX;
+    height: 40PX;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

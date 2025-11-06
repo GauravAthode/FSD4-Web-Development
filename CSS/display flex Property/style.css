@@ -1,0 +1,18 @@
+#maindiv{
+    border: 1px solid black;
+    width: 700PX;
+    height: 700PX;
+    background-color: aquamarine;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.SUBDIV{
+    border: 1px solid black;
+    width: 40PX;
+    height: 40PX;
+    background-color: blueviolet;
+}
