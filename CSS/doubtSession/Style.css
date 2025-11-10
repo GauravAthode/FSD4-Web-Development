@@ -1,0 +1,23 @@
+#coontainer{
+
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+
+}
+#drimg{
+    height: 100%;
+    img{
+
+    }
+}
+h1{
+    border-bottom: 2px solid red;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#FormFild{
+    display: grid;
+    grid-template-columns: 250px;
+}

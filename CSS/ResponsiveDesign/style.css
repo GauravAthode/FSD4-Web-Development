@@ -1,0 +1,40 @@
+#maindiv{
+    width: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}
+.subdiv{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*
+xs < 576px
+sm >= 576px
+md >=768px
+lg >=960px
+xL >=1200px
+*/
+@media screen and (max-width: 1200x){
+    #maindiv{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media screen and (max-width: 160x){
+    #maindiv{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width: 768x){
+    #maindiv{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 576x){
+    #maindiv{
+        grid-template-columns: auto;
+    }
+}

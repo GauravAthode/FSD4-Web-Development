@@ -1,0 +1,18 @@
+#nelink {
+    border: 7px solid rgb(11, 97, 237);
+    width: 700PX;
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.container{
+    border: 7px solid rgb(11, 97, 237);
+    width: 700PX;
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}

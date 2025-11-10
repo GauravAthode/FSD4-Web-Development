@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dabba{
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    animation: movingdabba 4s linear infinite;
+}
+
+@keyframes movingdabba {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+        transform: rotate(-1800deg);
+        transition: transform 2s;
+    }
+    25%{
+        top: 0px;
+        left: 300px;
+        background-color: blue;
+        
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+        background-color: green;
+    }
+    75%{
+        top: 300px;
+        left: 0px;
+        background-color: yellow;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+    }
+    
+}
+
+img{
+    width: 300%;
+    height: 300%;
+    animation: rotating 1s linear infinite;
+}
