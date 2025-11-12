@@ -8,13 +8,9 @@
 #maindiv{
     
     display: grid;
-    grid-template-columns: 100px 300px 100px;
-    justify-content: center;
-    align-items: end;
-    justify-items: center;
-    width: fit-content;
+    grid-template-columns: 100px 100px 100px;
     border: 1px solid black;
-    gap: 50px;
+    gap: 20px;
 
 }
 .SUBDIV{
