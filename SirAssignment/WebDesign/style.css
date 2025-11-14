@@ -441,6 +441,18 @@ a{
   }
 
 }
+#i{
+  display: flex;
+  gap: 10px;
+  img{
+    height: 40px;
+    width: 40px;
+  }
+}
+#i :hover{
+  opacity: 60%;
+
+}
 #forField {
   width: 500px;
   margin: 30px auto;
