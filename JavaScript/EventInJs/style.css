@@ -1,0 +1,22 @@
+#bulb{
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: fit-content;
+}
+#button{
+    margin: 10px;
+}
+input{
+    height: 100px;
+    width: 400px;
+}
+#smartBulb{
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: fit-content;
+}
+.on{
+    background-color: yellow;
+}
