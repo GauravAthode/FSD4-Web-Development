@@ -90,7 +90,7 @@ function download() {
 
   const ctx = canvas.getContext("2d");
 
-  //fetch the original width and height of the image
+  // fetch the original width and height of the image
   canvas.width = img.naturalWidth;
   canvas.height = img.naturalHeight;
 
