@@ -27,6 +27,7 @@ function AddTask(){
 
         document.getElementById("NewTask").value="";
     }
+
         
 
 }
